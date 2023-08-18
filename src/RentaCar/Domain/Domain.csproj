@@ -12,4 +12,7 @@
   <ItemGroup>
     <Folder Include="Entities\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core.Packages\Core.Persistence\Core.Persistence.csproj" />
+  </ItemGroup>
 </Project>
