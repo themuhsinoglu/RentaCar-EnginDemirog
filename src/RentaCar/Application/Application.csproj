@@ -37,4 +37,8 @@
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.1.1" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\..\Core.Packages\Core.Persistence\Core.Persistence.csproj" />
+  </ItemGroup>
 </Project>
