@@ -17,6 +17,8 @@
     <None Remove="Features\Brands\Commands\Create\" />
     <None Remove="Features\Brands\Commands\Update\" />
     <None Remove="Features\Brands\Commands\Delete\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Features\" />
@@ -29,6 +31,8 @@
     <Folder Include="Features\Brands\Commands\Create\" />
     <Folder Include="Features\Brands\Commands\Update\" />
     <Folder Include="Features\Brands\Commands\Delete\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.1.1" />
