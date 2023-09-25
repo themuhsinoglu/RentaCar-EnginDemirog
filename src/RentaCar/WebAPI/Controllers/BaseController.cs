@@ -7,6 +7,7 @@ namespace WebAPI.Controllers
     public class BaseController : ControllerBase
     {
         //attemtp commit 
+        //deneme
         private IMediator? _mediator;
         protected IMediator? Mediator => _mediator ??= HttpContext.RequestServices.GetService<IMediator>();
 
