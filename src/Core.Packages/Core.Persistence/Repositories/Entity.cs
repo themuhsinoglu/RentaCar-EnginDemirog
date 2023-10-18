@@ -1,5 +1,4 @@
-﻿using System;
-namespace Core.Persistence.Repositories
+﻿namespace Core.Persistence.Repositories
 {
     public class Entity<TId> : IEntityTimestamps
     {
@@ -10,7 +9,7 @@ namespace Core.Persistence.Repositories
 
         public Entity()
         {
-            Id = default;
+            Id = default!;
         }
 
         public Entity(TId id)

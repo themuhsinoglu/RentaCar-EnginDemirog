@@ -9,22 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.Packages", "Core.Packa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RentaCar", "RentaCar", "{F7A04291-2DB5-47A3-9498-BE77774F044D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Persistence", "src\Core.Packages\Core.Persistence\Core.Persistence.csproj", "{3AE89720-0A2D-47C9-BAF7-2089BB12E2B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Persistence", "src\Core.Packages\Core.Persistence\Core.Persistence.csproj", "{3AE89720-0A2D-47C9-BAF7-2089BB12E2B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "src\RentaCar\WebAPI\WebAPI.csproj", "{FF235D8A-2242-4F85-89AB-109088978124}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "src\RentaCar\WebAPI\WebAPI.csproj", "{FF235D8A-2242-4F85-89AB-109088978124}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "src\RentaCar\Persistence\Persistence.csproj", "{60948AEB-0001-4734-A0D3-16A4032DE6B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "src\RentaCar\Persistence\Persistence.csproj", "{60948AEB-0001-4734-A0D3-16A4032DE6B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\RentaCar\Domain\Domain.csproj", "{FB31F5D1-8742-45C5-8C95-18EEADC1B873}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\RentaCar\Domain\Domain.csproj", "{FB31F5D1-8742-45C5-8C95-18EEADC1B873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\RentaCar\Application\Application.csproj", "{C245B766-1A15-45B1-BF62-F8B7DB315259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\RentaCar\Application\Application.csproj", "{C245B766-1A15-45B1-BF62-F8B7DB315259}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastucture", "src\RentaCar\Infrastucture\Infrastucture.csproj", "{5215EDA8-8CB9-407B-B615-9F6BB4214A65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastucture", "src\RentaCar\Infrastucture\Infrastucture.csproj", "{5215EDA8-8CB9-407B-B615-9F6BB4214A65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "src\Core.Packages\Core.Application\Core.Application.csproj", "{051B6789-41DC-4C64-A702-D414874F0B9A}"
 EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -54,6 +53,13 @@ Global
 		{5215EDA8-8CB9-407B-B615-9F6BB4214A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5215EDA8-8CB9-407B-B615-9F6BB4214A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5215EDA8-8CB9-407B-B615-9F6BB4214A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051B6789-41DC-4C64-A702-D414874F0B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051B6789-41DC-4C64-A702-D414874F0B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051B6789-41DC-4C64-A702-D414874F0B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051B6789-41DC-4C64-A702-D414874F0B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{ADF05073-F8D2-4C8C-98D8-CFADEEB0EB66} = {65DDFBEC-1277-4329-8484-14498977FAED}
@@ -64,5 +70,6 @@ Global
 		{FB31F5D1-8742-45C5-8C95-18EEADC1B873} = {F7A04291-2DB5-47A3-9498-BE77774F044D}
 		{C245B766-1A15-45B1-BF62-F8B7DB315259} = {F7A04291-2DB5-47A3-9498-BE77774F044D}
 		{5215EDA8-8CB9-407B-B615-9F6BB4214A65} = {F7A04291-2DB5-47A3-9498-BE77774F044D}
+		{051B6789-41DC-4C64-A702-D414874F0B9A} = {ADF05073-F8D2-4C8C-98D8-CFADEEB0EB66}
 	EndGlobalSection
 EndGlobal

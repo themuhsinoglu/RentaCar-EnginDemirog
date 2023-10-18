@@ -8,13 +8,13 @@ namespace Core.Persistence.Dynamic
 
         public DynamicQuery()
         {
-            
+
         }
 
         public DynamicQuery(IEnumerable<Sort>? sort, Filter? filter)
         {
             Filter = filter;
-            Sort = sort;            
+            Sort = sort;
         }
     }
 }

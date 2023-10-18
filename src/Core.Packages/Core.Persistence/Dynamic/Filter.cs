@@ -1,9 +1,3 @@
-using System.Collections.ObjectModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace Core.Persistence.Dynamic
 {
     public class Filter
@@ -23,7 +17,7 @@ namespace Core.Persistence.Dynamic
         public Filter(string field, string @operator)
         {
             Field = field;
-            Operator = @operator;  
+            Operator = @operator;
         }
     }
 
