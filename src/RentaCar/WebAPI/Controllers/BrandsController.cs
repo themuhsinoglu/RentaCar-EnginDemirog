@@ -15,7 +15,7 @@ namespace WebAPI.Controllers
     [ApiController]
     public class BrandsController : BaseController
     {
-
+        //deneme
 
         [HttpPost]
         public async Task<IActionResult> Add([FromBody] CreateBrandCommand createBrandCommand)
